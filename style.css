@@ -39,3 +39,17 @@ h1 {
   -ms-user-select: none;
   user-select: none;
 }
+#hint {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
